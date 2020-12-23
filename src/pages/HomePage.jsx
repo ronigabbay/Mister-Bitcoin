@@ -41,8 +41,8 @@ class HomePage extends React.Component {
     }
 
     get userMoves() {
-        const user = UserService.getUser()
-        // const user = this.props.user
+        // const user = UserService.getUser()
+        const user = this.props.user
         const lastMoves = []
         for (var i = 0; i < user.moves.length; i++) {
             lastMoves.push(user.moves[i])
