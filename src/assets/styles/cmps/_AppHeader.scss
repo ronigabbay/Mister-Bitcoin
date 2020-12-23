@@ -1,0 +1,15 @@
+.app-header{
+    background-color: #b8b8fa;
+    width: 100%;
+    padding: 15px 30px;
+    & > * {
+        font-size: em(20px)
+    }
+    & > *:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+
+.active {
+    font-weight: bold;
+}

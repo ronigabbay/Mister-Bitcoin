@@ -1,0 +1,34 @@
+.MoveList {
+    text-align: left;
+    margin: 30px;
+    // h2 {
+    //     font-size: em(20px);
+    // }
+}
+.your-moves{
+    font-size: em(30px);
+    text-align: center;
+
+}
+.move-details-home{
+    background-color: $bgc2;
+    margin: 10px;
+    padding: 1px;
+    border: 3px solid white;
+    border-radius: 30px;
+    // width: 50%;
+    h3 {
+        font-size: em(16px);
+   }
+}
+
+.move-details-details{
+    background-color:$bgc2;
+    margin: 10px;
+    padding: 5px 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    h3 {
+        font-size: em(16px);
+   }
+}

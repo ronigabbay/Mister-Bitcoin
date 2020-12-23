@@ -1,0 +1,26 @@
+
+.edit-container {
+    width: 80%;
+    .delete-img{
+       margin-right: 80px;
+    }
+    .save-img{
+       width: 28px;
+    }
+}
+.edit-form {
+    // background-color: white;
+    color: white;
+    height: 80vh;
+    input {
+        width: 200px;
+        margin-bottom: 15px;
+        margin-top: 2px;
+    }
+}
+
+
+.save-btn{
+    visibility: hidden;
+}
+ 
